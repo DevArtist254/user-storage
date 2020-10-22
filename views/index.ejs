@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link href="style/style.css" rel="stylesheet" >
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__form-contacts">
+            <form action="/" method="POST" class="form">
+                <h1 class="form__heading heading">Enter new <br> contacts</h1>
+                <input type="text" name="name" class="form__input" placeholder="Enter your Contacts Name:">
+                <input type="tel" id="phone" class="form__input" name="phone"pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Format: 0721-456-789" required>
+                <input type="email" name="email" class="form__input"  placeholder="user@g.com" required>
+                <input type="submit" class="form__btn btn" >
+            </form>
+        </div>
+        <div class="container__current-user">
+            <div class="user">
+                <img src="../public/images/" alt="the login in user" class="user__img">
+                <div class="user__name" id="user__name">Name : Kevin Wasonga</div>
+                <div class="user__contacts" id="user__contacts">Number of Contacts : 37</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

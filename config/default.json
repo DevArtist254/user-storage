@@ -1,0 +1,5 @@
+{
+    "mongoURI": "",
+    "mongoLocalURI": "mongodb://localhost/usersDB",
+    "jwtSecret": "GetFromWeb"
+}
