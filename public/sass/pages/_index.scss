@@ -17,5 +17,31 @@
     &__current-user{
         flex-basis : 40%;
         background-color:  rgba(174, 228, 152, 0.5);
+        position: relative;
+    }
+}
+
+.user {
+    position: absolute;
+    top: 9.5rem;
+    left: 12rem;
+    width: 40.8rem;
+    height: 51.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+        border-radius: 25rem;
+        height: 25rem;
+        width: 25rem;
+    }
+    &__name,&__contacts {
+        font-family: Roboto;
+        font-style: normal; 
+        font-weight: normal;
+        font-size: 3.6rem;
+        line-height: 4.2rem;
     }
 }

@@ -1,0 +1,36 @@
+.btn {
+    border: none;
+    background-color: $color-tertiary;
+    width: 170px;
+    height: 57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-ghost {
+    border: none;
+    background-color: transparent;
+    color: #FA8407;
+    height: 57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover {
+        border-bottom: 2.5px solid #FA8407;
+    }
+}

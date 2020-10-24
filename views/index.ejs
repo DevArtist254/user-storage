@@ -14,17 +14,26 @@
         <div class="container__form-contacts">
             <form action="/" method="POST" class="form">
                 <h1 class="form__heading heading">Enter new <br> contacts</h1>
-                <input type="text" name="name" class="form__input" placeholder="Enter your Contacts Name:">
-                <input type="tel" id="phone" class="form__input" name="phone"pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Format: 0721-456-789" required>
-                <input type="email" name="email" class="form__input"  placeholder="user@g.com" required>
+                <div class="form__content">
+                   
+                    <input type="text" name="name" class="form__input" placeholder="Enter your Contacts Name:">
+                    <label for="name" class="form__label">Enter their contacts name:</label>
+                    
+                    <input type="tel" id="phone" class="form__input" name="phone"pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Format: 0721-456-789" required>
+                    <label for="tel" class="form__label">Enter their phone number:</label>
+                       
+                    <input type="email" name="email" class="form__input"  placeholder="user@g.com" required>
+                    <label for="email" class="form__label">Enter their email:</label>
+                </div>
                 <input type="submit" class="form__btn btn" >
             </form>
         </div>
         <div class="container__current-user">
             <div class="user">
-                <img src="../public/images/" alt="the login in user" class="user__img">
+                <img src="images/xc.jpeg" alt="the login in user" class="user__img">
                 <div class="user__name" id="user__name">Name : Kevin Wasonga</div>
                 <div class="user__contacts" id="user__contacts">Number of Contacts : 37</div>
+                <button class="user__btn btn-ghost">Veiw all contacts &nrArr;</button>
             </div>
         </div>
     </div>
